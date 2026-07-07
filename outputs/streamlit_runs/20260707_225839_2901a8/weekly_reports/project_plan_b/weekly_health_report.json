@@ -1,0 +1,135 @@
+{
+  "workbook_name": "Project_Plan_B.xlsx",
+  "workbook_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/Project_Plan_B.xlsx",
+  "plan_type": "detailed_plan",
+  "analyzed_at": "2026-07-07T17:28:39.410028",
+  "as_of_date": "2026-07-07",
+  "reports": [
+    {
+      "workbook_name": "Project_Plan_B.xlsx",
+      "workbook_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/Project_Plan_B.xlsx",
+      "plan_type": "detailed_plan",
+      "project_id": "PROJECT_PLAN_B",
+      "project_name": "Zycus - UniSan S2P Implementation",
+      "rag_status": "Red",
+      "overall_score": 68.1,
+      "confidence": "Medium",
+      "data_quality_score": 74.6,
+      "status_summary": "Red because schedule risk, risk risk are driving the highest weighted pressure.",
+      "reasons": [
+        "About 61% of the plan duration has elapsed, while blended progress is 44% and 22% of due tasks are still incomplete.",
+        "The plan carries 31 critical risks and 40 high risks.",
+        "0% of tasks are blocked and 42 high-priority tasks are still open."
+      ],
+      "recommendations": [
+        "Re-baseline overdue work and assign owners for the next two milestone dates.",
+        "Convert critical risks into named mitigation actions with target resolution dates.",
+        "Run a daily blocker and issue review until the open execution queue drops materially.",
+        "Reconcile conflicting progress signals before the next weekly report to improve confidence."
+      ],
+      "assumptions": [
+        "Evaluated the plan against 2026-07-07 because no explicit report date was stored in the workbook.",
+        "Used a conservative blended progress figure when the weekly summary and task-level completion disagreed.",
+        "Renormalized the overall score because budget and stakeholder sentiment data were not available in this workbook."
+      ],
+      "signals": [
+        {
+          "name": "Schedule",
+          "score": 53.2,
+          "status": "Amber",
+          "summary": "About 61% of the plan duration has elapsed, while blended progress is 44% and 22% of due tasks are still incomplete.",
+          "weight": 0.422,
+          "evidence": {
+            "planned_progress_by_date": 60.8,
+            "task_based_progress": 43.6,
+            "weekly_reported_progress": 44.0,
+            "blended_progress": 43.8,
+            "overdue_ratio": 0.22
+          }
+        },
+        {
+          "name": "Execution",
+          "score": 70.0,
+          "status": "Red",
+          "summary": "0% of tasks are blocked and 42 high-priority tasks are still open.",
+          "weight": 0.25,
+          "evidence": {
+            "blocked_ratio": 0.0,
+            "blocked_tasks": 0,
+            "high_priority_open_tasks": 42,
+            "open_issue_points": 1158.0
+          }
+        },
+        {
+          "name": "Risk",
+          "score": 100.0,
+          "status": "Red",
+          "summary": "The plan carries 31 critical risks and 40 high risks.",
+          "weight": 0.188,
+          "evidence": {
+            "critical_risks": 31,
+            "high_risks": 40,
+            "severity_mix": {
+              "High": 40,
+              "Medium": 9,
+              "Critical": 31
+            }
+          }
+        },
+        {
+          "name": "Resource",
+          "score": 100,
+          "status": "Red",
+          "summary": "Average resource utilization is 60% and the most stretched role is at 120%.",
+          "weight": 0.094,
+          "evidence": {
+            "average_utilization": 59.7,
+            "max_utilization": 120.0
+          }
+        },
+        {
+          "name": "Change",
+          "score": 0.0,
+          "status": "Green",
+          "summary": "The change log contains 0 requests, including 0 high-impact changes.",
+          "weight": 0.047,
+          "evidence": {
+            "change_request_count": 0,
+            "impact_mix": {}
+          }
+        }
+      ],
+      "key_metrics": {
+        "planned_progress_by_date": 60.8,
+        "task_based_progress": 43.6,
+        "weekly_reported_progress": 44.0,
+        "progress_signal_gap": 0.4,
+        "overdue_ratio": 0.22,
+        "blocked_ratio": 0.0,
+        "critical_risks": 31,
+        "p1_issues": 42,
+        "max_utilization": 120.0,
+        "average_utilization": 59.7
+      },
+      "validation": {
+        "provided_rag_status": "Red",
+        "matches_provided_status": true
+      }
+    }
+  ],
+  "executive_summary": {
+    "project_count": 1,
+    "rag_counts": {
+      "Red": 1
+    },
+    "average_score": 68.1,
+    "watchlist": [
+      {
+        "project_id": "PROJECT_PLAN_B",
+        "project_name": "Zycus - UniSan S2P Implementation",
+        "rag_status": "Red",
+        "overall_score": 68.1
+      }
+    ]
+  }
+}

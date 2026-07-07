@@ -1,0 +1,133 @@
+{
+  "workbook_name": "S2P_Project.xlsx",
+  "workbook_path": "S2P_Project.xlsx",
+  "plan_type": "portfolio",
+  "project_id": "S2P-004",
+  "project_name": "S2P Transformation 4",
+  "rag_status": "Red",
+  "overall_score": 75.6,
+  "confidence": "High",
+  "data_quality_score": 80.0,
+  "status_summary": "Red because schedule risk, budget risk are driving the highest weighted pressure.",
+  "reasons": [
+    "Progress trails plan by 14 points and the project is 23 days behind schedule.",
+    "The project has consumed 70% of budget while delivering 46% completion.",
+    "The project has 2 critical blockers and 1 unresolved issues."
+  ],
+  "recommendations": [
+    "Re-baseline overdue work and assign owners for the next two milestone dates.",
+    "Freeze non-essential spend until delivery progress catches up with the burn rate.",
+    "Run a daily blocker and issue review until the open execution queue drops materially."
+  ],
+  "assumptions": [
+    "Used the workbook's project summary row as the primary source of truth for current-state metrics.",
+    "Evaluated overdue milestones against 2026-07-07.",
+    "Did not use the provided RAG column as an input; treated it only as an optional validation reference."
+  ],
+  "signals": [
+    {
+      "name": "Schedule",
+      "score": 100.0,
+      "status": "Red",
+      "summary": "Progress trails plan by 14 points and the project is 23 days behind schedule.",
+      "weight": 0.27,
+      "evidence": {
+        "progress_percent": 46,
+        "planned_percent": 60,
+        "schedule_delay_days": 23
+      }
+    },
+    {
+      "name": "Budget",
+      "score": 100.0,
+      "status": "Red",
+      "summary": "The project has consumed 70% of budget while delivering 46% completion.",
+      "weight": 0.18,
+      "evidence": {
+        "budget_usd": 438227,
+        "actual_spend_usd": 305858,
+        "burn_gap": 0.238,
+        "recent_positive_variance_ratio": 0.088
+      }
+    },
+    {
+      "name": "Milestone",
+      "score": 66.7,
+      "status": "Red",
+      "summary": "33% of milestones are marked delayed and 67% are overdue as of 2026-07-07.",
+      "weight": 0.13,
+      "evidence": {
+        "total_milestones": 6,
+        "delayed_ratio": 0.333,
+        "overdue_ratio": 0.667
+      }
+    },
+    {
+      "name": "Execution",
+      "score": 72.0,
+      "status": "Red",
+      "summary": "The project has 2 critical blockers and 1 unresolved issues.",
+      "weight": 0.16,
+      "evidence": {
+        "critical_blockers": 2,
+        "unresolved_issue_count": 1,
+        "issue_points": 12.0
+      }
+    },
+    {
+      "name": "Risk",
+      "score": 40.0,
+      "status": "Amber",
+      "summary": "The risk register contains 2 active items with a meaningful concentration of high and critical entries.",
+      "weight": 0.12,
+      "evidence": {
+        "active_risk_count": 2,
+        "severity_mix": {
+          "Low": 1,
+          "Critical": 1
+        }
+      }
+    },
+    {
+      "name": "Stakeholder",
+      "score": 10.0,
+      "status": "Green",
+      "summary": "Recent stakeholder sentiment is Positive, Positive.",
+      "weight": 0.08,
+      "evidence": {
+        "summary_sentiment": "Positive",
+        "recent_feedback": [
+          "Positive",
+          "Positive"
+        ]
+      }
+    },
+    {
+      "name": "Resource",
+      "score": 80,
+      "status": "Red",
+      "summary": "Resource utilization is running at 99% overall, with a peak role load of 99%.",
+      "weight": 0.06,
+      "evidence": {
+        "portfolio_utilization": 99,
+        "max_role_utilization": 99.0
+      }
+    }
+  ],
+  "key_metrics": {
+    "progress_percent": 46.0,
+    "planned_percent": 60.0,
+    "progress_gap": 14.0,
+    "schedule_delay_days": 23.0,
+    "budget_burn_ratio": 0.698,
+    "burn_gap": 0.238,
+    "critical_blockers": 2,
+    "open_risks": 2,
+    "summary_sentiment": "Positive",
+    "resource_utilization": 99.0
+  },
+  "validation": {
+    "provided_rag_status": "Red",
+    "matches_provided_status": true
+  }
+}

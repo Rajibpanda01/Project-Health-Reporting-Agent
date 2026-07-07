@@ -1,0 +1,38 @@
+{
+  "as_of_date": "2026-07-07",
+  "workbooks": [
+    {
+      "workbook_name": "S2P_Project.xlsx",
+      "workbook_path": "/Users/rajibpanda/Desktop/Project 9 july/S2P_Project.xlsx",
+      "output_dir": "/Users/rajibpanda/Desktop/Project 9 july/outputs/streamlit_runs/20260707_223513_3ed755/weekly_reports/s2p_project",
+      "project_count": 1,
+      "rag_counts": {
+        "Red": 1
+      }
+    },
+    {
+      "workbook_name": "Project_Plan_B.xlsx",
+      "workbook_path": "/Users/rajibpanda/Desktop/Project 9 july/Project_Plan_B.xlsx",
+      "output_dir": "/Users/rajibpanda/Desktop/Project 9 july/outputs/streamlit_runs/20260707_223513_3ed755/weekly_reports/project_plan_b",
+      "project_count": 1,
+      "rag_counts": {
+        "Red": 1
+      }
+    }
+  ],
+  "total_projects": 2,
+  "overall_rag_counts": {
+    "Red": 2
+  },
+  "monthly_deck": {
+    "pptx_path": "/Users/rajibpanda/Desktop/Project 9 july/deliverables/streamlit_runs/20260707_223513_3ed755/monthly_executive_deck.pptx",
+    "inspect_path": "/Users/rajibpanda/Desktop/Project 9 july/deliverables/streamlit_runs/20260707_223513_3ed755/monthly_executive_deck.pptx.inspect.ndjson",
+    "preview_dir": "/var/folders/xq/y60y9l897pj1scg4bt8m9bc80000gn/T/codex-presentations/project-health-reporting-agent/tmp/preview",
+    "qa_dir": "/var/folders/xq/y60y9l897pj1scg4bt8m9bc80000gn/T/codex-presentations/project-health-reporting-agent/tmp/qa"
+  },
+  "output_dir": "/Users/rajibpanda/Desktop/Project 9 july/outputs/streamlit_runs/20260707_223513_3ed755/weekly_reports",
+  "deck_output": "/Users/rajibpanda/Desktop/Project 9 july/deliverables/streamlit_runs/20260707_223513_3ed755/monthly_executive_deck.pptx",
+  "monthly_deck_data_path": "/Users/rajibpanda/Desktop/Project 9 july/outputs/streamlit_runs/20260707_223513_3ed755/weekly_reports/monthly_deck_data.json",
+  "monthly_synthesis_input_path": "/Users/rajibpanda/Desktop/Project 9 july/outputs/streamlit_runs/20260707_223513_3ed755/weekly_reports/monthly_synthesis_input.csv",
+  "run_summary_path": "/Users/rajibpanda/Desktop/Project 9 july/outputs/streamlit_runs/20260707_223513_3ed755/weekly_reports/run_summary.json"
+}

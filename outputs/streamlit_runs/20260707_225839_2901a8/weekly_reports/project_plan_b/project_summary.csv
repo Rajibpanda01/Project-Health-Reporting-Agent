@@ -1,0 +1,2 @@
+project_id,project_name,rag_status,overall_score,confidence,data_quality_score,top_reason_1,top_reason_2
+PROJECT_PLAN_B,Zycus - UniSan S2P Implementation,Red,68.1,Medium,74.6,"About 61% of the plan duration has elapsed, while blended progress is 44% and 22% of due tasks are still incomplete.",The plan carries 31 critical risks and 40 high risks.

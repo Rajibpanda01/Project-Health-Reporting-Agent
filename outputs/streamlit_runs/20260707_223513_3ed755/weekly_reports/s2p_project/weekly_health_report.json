@@ -1,0 +1,135 @@
+{
+  "workbook_name": "S2P_Project.xlsx",
+  "workbook_path": "/Users/rajibpanda/Desktop/Project 9 july/S2P_Project.xlsx",
+  "plan_type": "detailed_plan",
+  "analyzed_at": "2026-07-07T17:05:13.489514",
+  "as_of_date": "2026-07-07",
+  "reports": [
+    {
+      "workbook_name": "S2P_Project.xlsx",
+      "workbook_path": "/Users/rajibpanda/Desktop/Project 9 july/S2P_Project.xlsx",
+      "plan_type": "detailed_plan",
+      "project_id": "S2P_PROJECT",
+      "project_name": "Zycus - Titan S2P Implementation",
+      "rag_status": "Red",
+      "overall_score": 38.0,
+      "confidence": "Medium",
+      "data_quality_score": 62.3,
+      "status_summary": "Red because risk risk, resource risk are driving the highest weighted pressure.",
+      "reasons": [
+        "The plan carries 16 critical risks and 24 high risks.",
+        "Average resource utilization is 60% and the most stretched role is at 101%.",
+        "1% of tasks are blocked and 1 high-priority tasks are still open."
+      ],
+      "recommendations": [
+        "Convert critical risks into named mitigation actions with target resolution dates.",
+        "Rebalance the team or add temporary capacity to the most overloaded roles.",
+        "Run a daily blocker and issue review until the open execution queue drops materially.",
+        "Reconcile conflicting progress signals before the next weekly report to improve confidence."
+      ],
+      "assumptions": [
+        "Evaluated the plan against 2026-07-07 because no explicit report date was stored in the workbook.",
+        "Used a conservative blended progress figure when the weekly summary and task-level completion disagreed.",
+        "Renormalized the overall score because budget and stakeholder sentiment data were not available in this workbook."
+      ],
+      "signals": [
+        {
+          "name": "Schedule",
+          "score": 4.1,
+          "status": "Green",
+          "summary": "About 58% of the plan duration has elapsed, while blended progress is 63% and 7% of due tasks are still incomplete.",
+          "weight": 0.422,
+          "evidence": {
+            "planned_progress_by_date": 58.3,
+            "task_based_progress": 58.3,
+            "weekly_reported_progress": 71.0,
+            "blended_progress": 63.4,
+            "overdue_ratio": 0.069
+          }
+        },
+        {
+          "name": "Execution",
+          "score": 32.4,
+          "status": "Green",
+          "summary": "1% of tasks are blocked and 1 high-priority tasks are still open.",
+          "weight": 0.25,
+          "evidence": {
+            "blocked_ratio": 0.006,
+            "blocked_tasks": 0,
+            "high_priority_open_tasks": 1,
+            "open_issue_points": 649.0
+          }
+        },
+        {
+          "name": "Risk",
+          "score": 100.0,
+          "status": "Red",
+          "summary": "The plan carries 16 critical risks and 24 high risks.",
+          "weight": 0.188,
+          "evidence": {
+            "critical_risks": 16,
+            "high_risks": 24,
+            "severity_mix": {
+              "Critical": 16,
+              "Medium": 2,
+              "High": 24
+            }
+          }
+        },
+        {
+          "name": "Resource",
+          "score": 100,
+          "status": "Red",
+          "summary": "Average resource utilization is 60% and the most stretched role is at 101%.",
+          "weight": 0.094,
+          "evidence": {
+            "average_utilization": 60.0,
+            "max_utilization": 101.4
+          }
+        },
+        {
+          "name": "Change",
+          "score": 0.0,
+          "status": "Green",
+          "summary": "The change log contains 0 requests, including 0 high-impact changes.",
+          "weight": 0.047,
+          "evidence": {
+            "change_request_count": 0,
+            "impact_mix": {}
+          }
+        }
+      ],
+      "key_metrics": {
+        "planned_progress_by_date": 58.3,
+        "task_based_progress": 58.3,
+        "weekly_reported_progress": 71.0,
+        "progress_signal_gap": 12.7,
+        "overdue_ratio": 0.069,
+        "blocked_ratio": 0.006,
+        "critical_risks": 16,
+        "p1_issues": 25,
+        "max_utilization": 101.4,
+        "average_utilization": 60.0
+      },
+      "validation": {
+        "provided_rag_status": "Green",
+        "matches_provided_status": false
+      }
+    }
+  ],
+  "executive_summary": {
+    "project_count": 1,
+    "rag_counts": {
+      "Red": 1
+    },
+    "average_score": 38.0,
+    "watchlist": [
+      {
+        "project_id": "S2P_PROJECT",
+        "project_name": "Zycus - Titan S2P Implementation",
+        "rag_status": "Red",
+        "overall_score": 38.0
+      }
+    ]
+  }
+}

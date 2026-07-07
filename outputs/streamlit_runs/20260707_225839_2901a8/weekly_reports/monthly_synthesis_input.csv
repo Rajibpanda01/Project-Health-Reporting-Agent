@@ -1,0 +1,3 @@
+workbook_name,project_id,project_name,rag_status,overall_score,confidence,top_risk_driver,top_risk_score,reason_1
+S2P_Project.xlsx,S2P_PROJECT,Zycus - Titan S2P Implementation,Red,38.0,Medium,Risk,100.0,The plan carries 16 critical risks and 24 high risks.
+Project_Plan_B.xlsx,PROJECT_PLAN_B,Zycus - UniSan S2P Implementation,Red,68.1,Medium,Schedule,53.2,"About 61% of the plan duration has elapsed, while blended progress is 44% and 22% of due tasks are still incomplete."

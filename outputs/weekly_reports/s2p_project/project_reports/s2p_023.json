@@ -1,0 +1,134 @@
+{
+  "workbook_name": "S2P_Project.xlsx",
+  "workbook_path": "S2P_Project.xlsx",
+  "plan_type": "portfolio",
+  "project_id": "S2P-023",
+  "project_name": "S2P Transformation 23",
+  "rag_status": "Red",
+  "overall_score": 78.0,
+  "confidence": "High",
+  "data_quality_score": 80.0,
+  "status_summary": "Red because schedule risk, budget risk are driving the highest weighted pressure.",
+  "reasons": [
+    "Progress trails plan by 9 points and the project is 21 days behind schedule.",
+    "The project has consumed 101% of budget while delivering 40% completion.",
+    "The project has 3 critical blockers and 2 unresolved issues."
+  ],
+  "recommendations": [
+    "Re-baseline overdue work and assign owners for the next two milestone dates.",
+    "Freeze non-essential spend until delivery progress catches up with the burn rate.",
+    "Run a daily blocker and issue review until the open execution queue drops materially."
+  ],
+  "assumptions": [
+    "Used the workbook's project summary row as the primary source of truth for current-state metrics.",
+    "Evaluated overdue milestones against 2026-07-07.",
+    "Did not use the provided RAG column as an input; treated it only as an optional validation reference."
+  ],
+  "signals": [
+    {
+      "name": "Schedule",
+      "score": 85.0,
+      "status": "Red",
+      "summary": "Progress trails plan by 9 points and the project is 21 days behind schedule.",
+      "weight": 0.27,
+      "evidence": {
+        "progress_percent": 40,
+        "planned_percent": 49,
+        "schedule_delay_days": 21
+      }
+    },
+    {
+      "name": "Budget",
+      "score": 100.0,
+      "status": "Red",
+      "summary": "The project has consumed 101% of budget while delivering 40% completion.",
+      "weight": 0.18,
+      "evidence": {
+        "budget_usd": 850838,
+        "actual_spend_usd": 857085,
+        "burn_gap": 0.607,
+        "recent_positive_variance_ratio": 0.0
+      }
+    },
+    {
+      "name": "Milestone",
+      "score": 50.0,
+      "status": "Amber",
+      "summary": "17% of milestones are marked delayed and 50% are overdue as of 2026-07-07.",
+      "weight": 0.13,
+      "evidence": {
+        "total_milestones": 6,
+        "delayed_ratio": 0.167,
+        "overdue_ratio": 0.5
+      }
+    },
+    {
+      "name": "Execution",
+      "score": 100.0,
+      "status": "Red",
+      "summary": "The project has 3 critical blockers and 2 unresolved issues.",
+      "weight": 0.16,
+      "evidence": {
+        "critical_blockers": 3,
+        "unresolved_issue_count": 2,
+        "issue_points": 18.0
+      }
+    },
+    {
+      "name": "Risk",
+      "score": 95.0,
+      "status": "Red",
+      "summary": "The risk register contains 4 active items with a meaningful concentration of high and critical entries.",
+      "weight": 0.12,
+      "evidence": {
+        "active_risk_count": 4,
+        "severity_mix": {
+          "Critical": 2,
+          "Low": 1,
+          "High": 1
+        }
+      }
+    },
+    {
+      "name": "Stakeholder",
+      "score": 10.0,
+      "status": "Green",
+      "summary": "Recent stakeholder sentiment is Positive, Positive.",
+      "weight": 0.08,
+      "evidence": {
+        "summary_sentiment": "Positive",
+        "recent_feedback": [
+          "Positive",
+          "Positive"
+        ]
+      }
+    },
+    {
+      "name": "Resource",
+      "score": 40,
+      "status": "Amber",
+      "summary": "Resource utilization is running at 74% overall, with a peak role load of 87%.",
+      "weight": 0.06,
+      "evidence": {
+        "portfolio_utilization": 74,
+        "max_role_utilization": 87.0
+      }
+    }
+  ],
+  "key_metrics": {
+    "progress_percent": 40.0,
+    "planned_percent": 49.0,
+    "progress_gap": 9.0,
+    "schedule_delay_days": 21.0,
+    "budget_burn_ratio": 1.007,
+    "burn_gap": 0.607,
+    "critical_blockers": 3,
+    "open_risks": 4,
+    "summary_sentiment": "Positive",
+    "resource_utilization": 74.0
+  },
+  "validation": {
+    "provided_rag_status": "Red",
+    "matches_provided_status": true
+  }
+}

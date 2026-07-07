@@ -1,0 +1,131 @@
+{
+  "workbook_name": "S2P_Project.xlsx",
+  "workbook_path": "S2P_Project.xlsx",
+  "plan_type": "portfolio",
+  "project_id": "S2P-015",
+  "project_name": "S2P Transformation 15",
+  "rag_status": "Green",
+  "overall_score": 31.7,
+  "confidence": "High",
+  "data_quality_score": 88.0,
+  "status_summary": "Green because schedule risk, milestone risk are driving the highest weighted pressure.",
+  "reasons": [
+    "Progress trails plan by 5 points and the project is 4 days behind schedule.",
+    "33% of milestones are marked delayed and 67% are overdue as of 2026-07-07."
+  ],
+  "recommendations": [
+    "Re-baseline overdue work and assign owners for the next two milestone dates.",
+    "Turn delayed milestones into a dated recovery plan with explicit checkpoint owners.",
+    "Run a daily blocker and issue review until the open execution queue drops materially."
+  ],
+  "assumptions": [
+    "Used the workbook's project summary row as the primary source of truth for current-state metrics.",
+    "Evaluated overdue milestones against 2026-07-07.",
+    "Did not use the provided RAG column as an input; treated it only as an optional validation reference."
+  ],
+  "signals": [
+    {
+      "name": "Schedule",
+      "score": 33.0,
+      "status": "Green",
+      "summary": "Progress trails plan by 5 points and the project is 4 days behind schedule.",
+      "weight": 0.27,
+      "evidence": {
+        "progress_percent": 74,
+        "planned_percent": 79,
+        "schedule_delay_days": 4
+      }
+    },
+    {
+      "name": "Budget",
+      "score": 6.3,
+      "status": "Green",
+      "summary": "The project has consumed 45% of budget while delivering 74% completion.",
+      "weight": 0.18,
+      "evidence": {
+        "budget_usd": 1746014,
+        "actual_spend_usd": 779375,
+        "burn_gap": 0.0,
+        "recent_positive_variance_ratio": 0.063
+      }
+    },
+    {
+      "name": "Milestone",
+      "score": 66.7,
+      "status": "Red",
+      "summary": "33% of milestones are marked delayed and 67% are overdue as of 2026-07-07.",
+      "weight": 0.13,
+      "evidence": {
+        "total_milestones": 6,
+        "delayed_ratio": 0.333,
+        "overdue_ratio": 0.667
+      }
+    },
+    {
+      "name": "Execution",
+      "score": 37.0,
+      "status": "Amber",
+      "summary": "The project has 0 critical blockers and 2 unresolved issues.",
+      "weight": 0.16,
+      "evidence": {
+        "critical_blockers": 0,
+        "unresolved_issue_count": 2,
+        "issue_points": 37.0
+      }
+    },
+    {
+      "name": "Risk",
+      "score": 12.0,
+      "status": "Green",
+      "summary": "The risk register contains 1 active items with a meaningful concentration of high and critical entries.",
+      "weight": 0.12,
+      "evidence": {
+        "active_risk_count": 1,
+        "severity_mix": {
+          "Medium": 1
+        }
+      }
+    },
+    {
+      "name": "Stakeholder",
+      "score": 10.0,
+      "status": "Green",
+      "summary": "Recent stakeholder sentiment is Positive, Positive.",
+      "weight": 0.08,
+      "evidence": {
+        "summary_sentiment": "Positive",
+        "recent_feedback": [
+          "Positive",
+          "Positive"
+        ]
+      }
+    },
+    {
+      "name": "Resource",
+      "score": 80,
+      "status": "Red",
+      "summary": "Resource utilization is running at 92% overall, with a peak role load of 83%.",
+      "weight": 0.06,
+      "evidence": {
+        "portfolio_utilization": 92,
+        "max_role_utilization": 83.0
+      }
+    }
+  ],
+  "key_metrics": {
+    "progress_percent": 74.0,
+    "planned_percent": 79.0,
+    "progress_gap": 5.0,
+    "schedule_delay_days": 4.0,
+    "budget_burn_ratio": 0.446,
+    "burn_gap": 0.0,
+    "critical_blockers": 0,
+    "open_risks": 4,
+    "summary_sentiment": "Positive",
+    "resource_utilization": 92.0
+  },
+  "validation": {
+    "provided_rag_status": "Amber",
+    "matches_provided_status": false
+  }
+}

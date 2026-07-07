@@ -1,0 +1,132 @@
+{
+  "workbook_name": "S2P_Project.xlsx",
+  "workbook_path": "S2P_Project.xlsx",
+  "plan_type": "portfolio",
+  "project_id": "S2P-009",
+  "project_name": "S2P Transformation 9",
+  "rag_status": "Red",
+  "overall_score": 60.1,
+  "confidence": "High",
+  "data_quality_score": 88.0,
+  "status_summary": "Red because budget risk, execution risk are driving the highest weighted pressure.",
+  "reasons": [
+    "The project has consumed 99% of budget while delivering 76% completion.",
+    "The project has 2 critical blockers and 1 unresolved issues.",
+    "Progress trails plan by 0 points and the project is 20 days behind schedule."
+  ],
+  "recommendations": [
+    "Freeze non-essential spend until delivery progress catches up with the burn rate.",
+    "Run a daily blocker and issue review until the open execution queue drops materially.",
+    "Re-baseline overdue work and assign owners for the next two milestone dates."
+  ],
+  "assumptions": [
+    "Used the workbook's project summary row as the primary source of truth for current-state metrics.",
+    "Evaluated overdue milestones against 2026-07-07.",
+    "Did not use the provided RAG column as an input; treated it only as an optional validation reference."
+  ],
+  "signals": [
+    {
+      "name": "Schedule",
+      "score": 40.0,
+      "status": "Amber",
+      "summary": "Progress trails plan by 0 points and the project is 20 days behind schedule.",
+      "weight": 0.27,
+      "evidence": {
+        "progress_percent": 76,
+        "planned_percent": 74,
+        "schedule_delay_days": 20
+      }
+    },
+    {
+      "name": "Budget",
+      "score": 100.0,
+      "status": "Red",
+      "summary": "The project has consumed 99% of budget while delivering 76% completion.",
+      "weight": 0.18,
+      "evidence": {
+        "budget_usd": 848048,
+        "actual_spend_usd": 837164,
+        "burn_gap": 0.227,
+        "recent_positive_variance_ratio": 0.049
+      }
+    },
+    {
+      "name": "Milestone",
+      "score": 33.3,
+      "status": "Green",
+      "summary": "33% of milestones are marked delayed and 33% are overdue as of 2026-07-07.",
+      "weight": 0.13,
+      "evidence": {
+        "total_milestones": 6,
+        "delayed_ratio": 0.333,
+        "overdue_ratio": 0.333
+      }
+    },
+    {
+      "name": "Execution",
+      "score": 85.0,
+      "status": "Red",
+      "summary": "The project has 2 critical blockers and 1 unresolved issues.",
+      "weight": 0.16,
+      "evidence": {
+        "critical_blockers": 2,
+        "unresolved_issue_count": 1,
+        "issue_points": 25.0
+      }
+    },
+    {
+      "name": "Risk",
+      "score": 35.0,
+      "status": "Amber",
+      "summary": "The risk register contains 1 active items with a meaningful concentration of high and critical entries.",
+      "weight": 0.12,
+      "evidence": {
+        "active_risk_count": 1,
+        "severity_mix": {
+          "Critical": 1
+        }
+      }
+    },
+    {
+      "name": "Stakeholder",
+      "score": 55.0,
+      "status": "Amber",
+      "summary": "Recent stakeholder sentiment is Negative, Positive.",
+      "weight": 0.08,
+      "evidence": {
+        "summary_sentiment": "Neutral",
+        "recent_feedback": [
+          "Negative",
+          "Positive"
+        ]
+      }
+    },
+    {
+      "name": "Resource",
+      "score": 80,
+      "status": "Red",
+      "summary": "Resource utilization is running at 70% overall, with a peak role load of 91%.",
+      "weight": 0.06,
+      "evidence": {
+        "portfolio_utilization": 70,
+        "max_role_utilization": 91.0
+      }
+    }
+  ],
+  "key_metrics": {
+    "progress_percent": 76.0,
+    "planned_percent": 74.0,
+    "progress_gap": 0.0,
+    "schedule_delay_days": 20.0,
+    "budget_burn_ratio": 0.987,
+    "burn_gap": 0.227,
+    "critical_blockers": 2,
+    "open_risks": 5,
+    "summary_sentiment": "Neutral",
+    "resource_utilization": 70.0
+  },
+  "validation": {
+    "provided_rag_status": "Red",
+    "matches_provided_status": true
+  }
+}
