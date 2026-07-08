@@ -1,12 +1,17 @@
 # Project Health Reporting Agent
 
-This repository contains a complete submission for the Zycus AI Engineer Intern technical assignment. It analyzes project-plan workbooks, assigns a transparent Red/Amber/Green status, explains the result in plain English, and automatically produces both weekly health reports and a monthly executive PowerPoint.
+An AI-powered Project Health Reporting Agent developed as part of the Zycus AI Engineer Intern technical assignment. The system analyzes project-plan workbooks, evaluates project health using a transparent RAG framework, generates plain-English explanations, produces weekly health reports, and automatically creates an executive PowerPoint presentation for leadership.
+
+
 
 ## Deliverables
 
 - `deliverables/RAG_Methodology.md`: one-page RAG framework and assumptions.
 - `deliverables/monthly_executive_deck.pptx`: automatically generated 6-slide executive presentation.
 - `outputs/weekly_reports/`: weekly outputs, JSON summaries, Markdown reports, and monthly synthesis data.
+
+
+
 
 ## Installation
 
@@ -21,10 +26,22 @@ python3 -m pip install -r requirements.txt
 - `S2P_Project.xlsx`
 - `Project_Plan_B.xlsx`
 
-Note:
 
-- In Codex Desktop, the PowerPoint generation step works with the bundled presentation runtime automatically.
-- If you want to override the runtime manually, you can set `PROJECT_HEALTH_NODE_BIN` and `PROJECT_HEALTH_PRESENTATION_SETUP`.
+
+
+## Features
+
+- Automated project health analysis
+- RAG (Red/Amber/Green) status calculation
+- Plain-English health explanations
+- Weekly report generation (JSON, Markdown, CSV)
+- Monthly executive PowerPoint generation
+- Streamlit web interface
+- Command Line Interface (CLI)
+- Handles incomplete or missing project data gracefully
+
+
+
 
 ## Run With Streamlit
 
@@ -41,23 +58,20 @@ What the app supports:
 - generate weekly reports and the monthly PowerPoint
 - download the deck, JSON, CSV, and a ZIP of the full run
 
-## How To Run
+
+
+
+## How To Run In Terminal
 
 Run the full assignment flow, including the monthly PowerPoint:
 
 ```bash
 python3 run.py \
-  --inputs \
-  "/Users/rajibpanda/Desktop/Project 9 july/S2P_Project.xlsx" \
-  "/Users/rajibpanda/Desktop/Project 9 july/Project_Plan_B.xlsx" \
-  --output-dir "/Users/rajibpanda/Desktop/Project 9 july/outputs/weekly_reports" \
-  --deck-output "/Users/rajibpanda/Desktop/Project 9 july/deliverables/monthly_executive_deck.pptx" \
-  --as-of-date 2026-07-07
+  --inputs S2P_Project.xlsx Project_Plan_B.xlsx \
+  --output-dir outputs/weekly_reports \
+  --deck-output deliverables/monthly_executive_deck.pptx
 ```
 
-Optional:
-
-- To skip Phase 3 deck generation, add `--skip-deck`.
 
 ## What The Run Produces
 
@@ -118,7 +132,7 @@ After the command completes, these files are generated or refreshed:
 
 ## Phase 3 Deck Structure
 
-The generated PowerPoint contains 5 slides:
+The generated PowerPoint contains 6 slides:
 
 1. Executive Summary
 2. Portfolio Health
@@ -136,25 +150,69 @@ The generated PowerPoint contains 5 slides:
 - Overall average score: `53.0/100`
 - Validation accuracy against the embedded workbook health labels: `50%`
 
-## Weekly Scheduling Bonus
+## Architecture Diagram
 
-You can run the weekly analysis on a schedule with cron:
-
-```cron
-0 8 * * MON cd /path/to/repo && /usr/bin/python3 run.py --inputs /path/to/S2P_Project.xlsx /path/to/Project_Plan_B.xlsx --output-dir /path/to/repo/outputs/weekly_reports --deck-output /path/to/repo/deliverables/monthly_executive_deck.pptx --as-of-date $(date +\%F)
-```
+                Excel Workbooks (.xlsx)
+                        │
+                        ▼
+                loaders.py
+                (Read & Validate Data)
+                        │
+                        ▼
+                models.py
+                (Project Context)
+                        │
+                        ▼
+                scoring.py
+                (RAG & Health Score)
+                        │
+                        ▼
+                reporting.py
+                (JSON / CSV / MD)
+                        │
+                        ▼
+                monthly_deck_data.json
+                        │
+                        ▼
+                presentation.py
+                        │
+                        ▼
+                monthly_deck_builder.mjs
+                        │
+                        ▼
+                monthly_executive_deck.pptx
 
 ## Tech Stack
 
-- Python 3
-- `pandas`
-- `openpyxl`
-- `streamlit`
-- JavaScript ES modules
-- `@oai/artifact-tool` for PowerPoint generation
+Backend
+- Python 3.13.5
+- Pandas
+- OpenPyXL
+
+Frontend
+- Streamlit
+
+Reporting
+- Markdown
+- JSON
+- CSV
+
+Presentation
+- JavaScript (ES Modules)
+- @oai/artifact-tool
+
+Others
+- argparse
+- pathlib
+
+
 
 ## Key Design Choices
 
 - The scoring logic does not blindly trust a workbook's existing RAG column; it uses that only as a validation signal.
 - Missing or inconsistent data reduces confidence instead of breaking the run.
 - The monthly deck is generated from synthesized JSON, which makes Phase 3 deterministic and repeatable.
+
+## License
+
+This project was developed solely for the Zycus AI Engineer Intern technical assignment and is intended for evaluation purposes.
