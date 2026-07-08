@@ -1,0 +1,4 @@
+workbook_name,project_id,project_name,rag_status,overall_score,confidence,top_risk_driver,top_risk_score,reason_1
+S2P_Project_Compatible.xlsx,S2P-001,ERP Migration,Red,74.4,High,Schedule,84.0,Progress trails plan by 15 points and the project is 12 days behind schedule.
+S2P_Project_Compatible.xlsx,S2P-002,CRM Upgrade,Red,91.1,High,Schedule,96.0,Progress trails plan by 26 points and the project is 18 days behind schedule.
+S2P_Project_Compatible.xlsx,S2P-003,AI Procurement,Green,20.8,High,Milestone,60.0,20% of milestones are marked delayed and 60% are overdue as of 2026-07-08.

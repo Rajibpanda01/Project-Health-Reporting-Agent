@@ -1,0 +1,130 @@
+{
+  "workbook_name": "S2P_Project_Compatible_10Projects.xlsx",
+  "workbook_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/inputs/S2P_Project_Compatible_10Projects.xlsx",
+  "plan_type": "portfolio",
+  "project_id": "S2P-006",
+  "project_name": "Supplier Portal Upgrade",
+  "rag_status": "Amber",
+  "overall_score": 43.6,
+  "confidence": "High",
+  "data_quality_score": 82.0,
+  "status_summary": "Amber because schedule risk, budget risk are driving the highest weighted pressure.",
+  "reasons": [
+    "Progress trails plan by 6 points and the project is 6 days behind schedule.",
+    "The project has consumed 85% of budget while delivering 74% completion."
+  ],
+  "recommendations": [
+    "Re-baseline overdue work and assign owners for the next two milestone dates.",
+    "Freeze non-essential spend until delivery progress catches up with the burn rate.",
+    "Run a daily blocker and issue review until the open execution queue drops materially."
+  ],
+  "assumptions": [
+    "Used the workbook's project summary row as the primary source of truth for current-state metrics.",
+    "Evaluated overdue milestones against 2026-07-08.",
+    "Did not use the provided RAG column as an input; treated it only as an optional validation reference."
+  ],
+  "signals": [
+    {
+      "name": "Schedule",
+      "score": 42.0,
+      "status": "Amber",
+      "summary": "Progress trails plan by 6 points and the project is 6 days behind schedule.",
+      "weight": 0.27,
+      "evidence": {
+        "progress_percent": 74,
+        "planned_percent": 80,
+        "schedule_delay_days": 6
+      }
+    },
+    {
+      "name": "Budget",
+      "score": 57.6,
+      "status": "Amber",
+      "summary": "The project has consumed 85% of budget while delivering 74% completion.",
+      "weight": 0.18,
+      "evidence": {
+        "budget_usd": 720000,
+        "actual_spend_usd": 610000,
+        "burn_gap": 0.107,
+        "recent_positive_variance_ratio": 0.04
+      }
+    },
+    {
+      "name": "Milestone",
+      "score": 40.0,
+      "status": "Amber",
+      "summary": "20% of milestones are marked delayed and 40% are overdue as of 2026-07-08.",
+      "weight": 0.13,
+      "evidence": {
+        "total_milestones": 5,
+        "delayed_ratio": 0.2,
+        "overdue_ratio": 0.4
+      }
+    },
+    {
+      "name": "Execution",
+      "score": 42.0,
+      "status": "Amber",
+      "summary": "The project has 1 critical blockers and 1 unresolved issues.",
+      "weight": 0.16,
+      "evidence": {
+        "critical_blockers": 1,
+        "unresolved_issue_count": 1,
+        "issue_points": 12.0
+      }
+    },
+    {
+      "name": "Risk",
+      "score": 36.0,
+      "status": "Amber",
+      "summary": "The risk register contains 3 active items with a meaningful concentration of high and critical entries.",
+      "weight": 0.12,
+      "evidence": {
+        "active_risk_count": 3,
+        "severity_mix": {
+          "Medium": 3
+        }
+      }
+    },
+    {
+      "name": "Stakeholder",
+      "score": 10.0,
+      "status": "Green",
+      "summary": "Recent stakeholder sentiment is Positive.",
+      "weight": 0.08,
+      "evidence": {
+        "summary_sentiment": "Neutral",
+        "recent_feedback": [
+          "Positive"
+        ]
+      }
+    },
+    {
+      "name": "Resource",
+      "score": 80,
+      "status": "Red",
+      "summary": "Resource utilization is running at 82% overall, with a peak role load of 96%.",
+      "weight": 0.06,
+      "evidence": {
+        "portfolio_utilization": 82,
+        "max_role_utilization": 96.0
+      }
+    }
+  ],
+  "key_metrics": {
+    "progress_percent": 74.0,
+    "planned_percent": 80.0,
+    "progress_gap": 6.0,
+    "schedule_delay_days": 6.0,
+    "budget_burn_ratio": 0.847,
+    "burn_gap": 0.107,
+    "critical_blockers": 1,
+    "open_risks": 3,
+    "summary_sentiment": "Neutral",
+    "resource_utilization": 82.0
+  },
+  "validation": {
+    "provided_rag_status": "Amber",
+    "matches_provided_status": true
+  }
+}

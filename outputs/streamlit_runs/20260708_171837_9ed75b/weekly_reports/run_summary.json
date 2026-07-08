@@ -1,0 +1,33 @@
+{
+  "as_of_date": "2026-07-08",
+  "workbooks": [
+    {
+      "workbook_name": "S2P_Project_Compatible_10Projects.xlsx",
+      "workbook_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/inputs/S2P_Project_Compatible_10Projects.xlsx",
+      "output_dir": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/weekly_reports/s2p_project_compatible_10projects",
+      "project_count": 8,
+      "rag_counts": {
+        "Red": 5,
+        "Green": 1,
+        "Amber": 2
+      }
+    }
+  ],
+  "total_projects": 8,
+  "overall_rag_counts": {
+    "Red": 5,
+    "Green": 1,
+    "Amber": 2
+  },
+  "monthly_deck": {
+    "pptx_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/deliverables/streamlit_runs/20260708_171837_9ed75b/monthly_executive_deck.pptx",
+    "inspect_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/deliverables/streamlit_runs/20260708_171837_9ed75b/monthly_executive_deck.pptx.inspect.ndjson",
+    "preview_dir": "/var/folders/xq/y60y9l897pj1scg4bt8m9bc80000gn/T/codex-presentations/project-health-reporting-agent/tmp/preview",
+    "qa_dir": "/var/folders/xq/y60y9l897pj1scg4bt8m9bc80000gn/T/codex-presentations/project-health-reporting-agent/tmp/qa"
+  },
+  "output_dir": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/weekly_reports",
+  "deck_output": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/deliverables/streamlit_runs/20260708_171837_9ed75b/monthly_executive_deck.pptx",
+  "monthly_deck_data_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/weekly_reports/monthly_deck_data.json",
+  "monthly_synthesis_input_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/weekly_reports/monthly_synthesis_input.csv",
+  "run_summary_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/outputs/streamlit_runs/20260708_171837_9ed75b/weekly_reports/run_summary.json"
+}
