@@ -1,2 +1,0 @@
-project_id,project_name,rag_status,overall_score,confidence,data_quality_score,top_reason_1,top_reason_2
-S2P_PROJECT,Zycus - Titan S2P Implementation,Red,38.0,Medium,62.3,The plan carries 16 critical risks and 24 high risks.,Average resource utilization is 60% and the most stretched role is at 101%.
