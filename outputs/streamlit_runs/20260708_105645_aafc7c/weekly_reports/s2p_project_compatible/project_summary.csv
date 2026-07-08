@@ -1,0 +1,4 @@
+project_id,project_name,rag_status,overall_score,confidence,data_quality_score,top_reason_1,top_reason_2
+S2P-001,ERP Migration,Red,74.4,High,100.0,Progress trails plan by 15 points and the project is 12 days behind schedule.,The project has consumed 84% of budget while delivering 60% completion.
+S2P-002,CRM Upgrade,Red,91.1,High,100.0,Progress trails plan by 26 points and the project is 18 days behind schedule.,The project has consumed 96% of budget while delivering 42% completion.
+S2P-003,AI Procurement,Green,20.8,High,100.0,20% of milestones are marked delayed and 60% are overdue as of 2026-07-08.,Progress trails plan by 2 points and the project is 2 days behind schedule.

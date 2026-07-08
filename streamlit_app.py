@@ -21,7 +21,7 @@ from project_health_agent.workflow import run_analysis
 
 
 APP_RUNS_DIR = ROOT / "outputs" / "streamlit_runs"
-APP_DELIVERABLES_DIR = ROOT / "deliverables" / "streamlit_runs"
+APP_DELIVERABLES_DIR = ROOT / "deliverables"
 DEFAULT_WORKBOOKS = [
     ROOT / "S2P_Project.xlsx",
     ROOT / "Project_Plan_B.xlsx",
@@ -35,7 +35,7 @@ def _run_id() -> str:
 def _prepare_run_dirs(run_id: str) -> tuple[Path, Path, Path]:
     input_dir = APP_RUNS_DIR / run_id / "inputs"
     output_dir = APP_RUNS_DIR / run_id / "weekly_reports"
-    deliverables_dir = APP_DELIVERABLES_DIR / run_id
+    deliverables_dir = APP_DELIVERABLES_DIR / "streamlit_runs" / run_id
     input_dir.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
     deliverables_dir.mkdir(parents=True, exist_ok=True)

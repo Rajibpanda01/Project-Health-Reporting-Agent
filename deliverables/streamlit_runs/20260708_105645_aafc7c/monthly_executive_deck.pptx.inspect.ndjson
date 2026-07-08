@@ -1,0 +1,105 @@
+{"kind":"deck","id":"pr/pevc3d","name":"Deck"}
+{"kind":"layout","layoutId":"d0e188b9-5320-49a7-8d81-bbd443005b2e","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"172f545a-df81-457e-98b7-3eb44d98d121","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/s42z6j","slide":1,"title":"Executive Summary","textShapes":14}
+{"kind":"textbox","id":"sh/judg7ads","slide":1,"text":"Executive Summary","textPreview":"Executive Summary","textChars":17,"textLines":1,"bbox":[48,34,880,56]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":1,"text":"Automated monthly client-ready view generated from the analyzed project plans.","textPreview":"Automated monthly client-ready view generated from the analyzed project plans.","textChars":78,"textLines":1,"bbox":[48,92,980,44]}
+{"kind":"shape","id":"sh/1032lszq","slide":1,"bbox":[48,156,270,150]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":1,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[66,174,234,54]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":1,"text":"Projects","textPreview":"Projects","textChars":8,"textLines":1,"bbox":[66,238,234,54]}
+{"kind":"shape","id":"sh/c7u54zid","slide":1,"bbox":[336,156,270,150]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[354,174,234,54]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":1,"text":"Green","textPreview":"Green","textChars":5,"textLines":1,"bbox":[354,238,234,54]}
+{"kind":"shape","id":"sh/nap4r65w","slide":1,"bbox":[624,156,270,150]}
+{"kind":"textbox","id":"sh/7u54zido","slide":1,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[642,174,234,54]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":1,"text":"Amber","textPreview":"Amber","textChars":5,"textLines":1,"bbox":[642,238,234,54]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":1,"bbox":[912,156,270,150]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":1,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[930,174,234,54]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":1,"text":"Red","textPreview":"Red","textChars":3,"textLines":1,"bbox":[930,238,234,54]}
+{"kind":"shape","id":"sh/eloj2t83","slide":1,"bbox":[48,348,180,3]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":1,"text":"66.7% of analyzed views are currently red, which indicates that schedule recovery and execution control need executive attention before the next client reporting cycle.","textPreview":"66.7% of analyzed views are currently red, which indicates that schedule recovery and execution control need executive attention before t...","textChars":168,"textLines":1,"bbox":[48,372,760,110]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":1,"bbox":[846,354,336,310]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":1,"text":"This month at a glance","textPreview":"This month at a glance","textChars":22,"textLines":1,"bbox":[872,382,280,28]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":1,"text":"Schedule is the most common lead driver.\n\nMilestone pressure is the next-most common concern across the current plans.\n\nCRM Upgrade remains red and should stay on the next escalation review list.","textPreview":"Schedule is the most common lead driver. |  | Milestone pressure is the next-most common concern across the current plans. |  | CRM Upgra...","textChars":195,"textLines":5,"bbox":[872,426,270,214]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1184,666,48,20]}
+{"kind":"notes","id":"nt/s42z6j","slide":1,"text":""}
+{"kind":"slide","id":"sl/82rcro","slide":2,"title":"Portfolio Health","textShapes":16}
+{"kind":"textbox","id":"sh/sneloj2t","slide":2,"text":"Portfolio Health","textPreview":"Portfolio Health","textChars":16,"textLines":1,"bbox":[48,34,880,56]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":2,"text":"RAG distribution, average score, and model validation point to a portfolio that is broadly under delivery pressure.","textPreview":"RAG distribution, average score, and model validation point to a portfolio that is broadly under delivery pressure.","textChars":115,"textLines":1,"bbox":[48,92,980,44]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":2,"bbox":[48,154,620,474]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":2,"text":"RAG Distribution","textPreview":"RAG Distribution","textChars":16,"textLines":1,"bbox":[76,176,220,28]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":2,"bbox":[92,244,156,190]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[110,262,120,54]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":2,"text":"Green","textPreview":"Green","textChars":5,"textLines":1,"bbox":[110,326,120,94]}
+{"kind":"shape","id":"sh/loj2t83i","slide":2,"bbox":[278,244,156,190]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":2,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[296,262,120,54]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"text":"Amber","textPreview":"Amber","textChars":5,"textLines":1,"bbox":[296,326,120,94]}
+{"kind":"shape","id":"sh/nyd0z610","slide":2,"bbox":[464,244,156,190]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[482,262,120,54]}
+{"kind":"textbox","id":"sh/54zidony","slide":2,"text":"Red","textPreview":"Red","textChars":3,"textLines":1,"bbox":[482,326,120,94]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":2,"text":"3 project plans were analyzed in this run, and every current view is red or amber-weighted enough to need active leadership attention.","textPreview":"3 project plans were analyzed in this run, and every current view is red or amber-weighted enough to need active leadership attention.","textChars":134,"textLines":1,"bbox":[92,470,528,84]}
+{"kind":"shape","id":"sh/nap4r65w","slide":2,"bbox":[716,170,232,154]}
+{"kind":"textbox","id":"sh/cvixczed","slide":2,"text":"62.1/100","textPreview":"62.1/100","textChars":8,"textLines":1,"bbox":[734,188,196,54]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"text":"Overall Score","textPreview":"Overall Score","textChars":13,"textLines":1,"bbox":[734,252,196,58]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":2,"bbox":[966,170,216,154]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":2,"text":"67%","textPreview":"67%","textChars":3,"textLines":1,"bbox":[984,188,180,54]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":2,"text":"Validation Accuracy","textPreview":"Validation Accuracy","textChars":19,"textLines":1,"bbox":[984,252,180,58]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":2,"text":"The average score across all 3 analyzed project plans is 62.1/100. Validation against the embedded workbook health labels holds at 67%, which is directionally useful for leadership screening while keeping the reasoning transparent.","textPreview":"The average score across all 3 analyzed project plans is 62.1/100. Validation against the embedded workbook health labels holds at 67%, w...","textChars":231,"textLines":1,"bbox":[716,374,466,176]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1184,666,48,20]}
+{"kind":"notes","id":"nt/82rcro","slide":2,"text":""}
+{"kind":"slide","id":"sl/nfoe8t","slide":3,"title":"Emerging Risks","textShapes":13}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":3,"text":"Emerging Risks","textPreview":"Emerging Risks","textChars":14,"textLines":1,"bbox":[48,34,880,56]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":3,"text":"Delay, budget burn, staffing pressure, and stakeholder confidence are emerging together rather than as isolated signals.","textPreview":"Delay, budget burn, staffing pressure, and stakeholder confidence are emerging together rather than as isolated signals.","textChars":120,"textLines":1,"bbox":[48,92,980,44]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":3,"bbox":[48,164,268,170]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[66,182,232,54]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":3,"text":"Budget Burn","textPreview":"Budget Burn","textChars":11,"textLines":1,"bbox":[66,246,232,74]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":3,"bbox":[332,164,268,170]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[350,182,232,54]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":3,"text":"Schedule Delays","textPreview":"Schedule Delays","textChars":15,"textLines":1,"bbox":[350,246,232,74]}
+{"kind":"shape","id":"sh/m58z25kb","slide":3,"bbox":[48,352,268,170]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[66,370,232,54]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":3,"text":"Resource Issues","textPreview":"Resource Issues","textChars":15,"textLines":1,"bbox":[66,434,232,74]}
+{"kind":"shape","id":"sh/61032lsz","slide":3,"bbox":[332,352,268,170]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[350,370,232,54]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":3,"text":"Stakeholder Concerns","textPreview":"Stakeholder Concerns","textChars":20,"textLines":1,"bbox":[350,434,232,74]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":3,"bbox":[644,164,538,358]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":3,"text":"Risk interpretation","textPreview":"Risk interpretation","textChars":19,"textLines":1,"bbox":[674,192,220,28]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"text":"1 projects are already more than two weeks behind, and 2 are spending ahead of delivery progress.\n\n1 projects also carry two or more critical blockers, which means the schedule risk is likely to stay elevated unless escalation gets faster.\n\nResource utilization above 90% and neutral or negative stakeholder sentiment show that the pressure is visible both inside the delivery teams and with client-facing sponsors.","textPreview":"1 projects are already more than two weeks behind, and 2 are spending ahead of delivery progress. |  | 1 projects also carry two or more ...","textChars":415,"textLines":5,"bbox":[674,238,456,232]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1184,666,48,20]}
+{"kind":"notes","id":"nt/nfoe8t","slide":3,"text":""}
+{"kind":"slide","id":"sl/ve7dmm","slide":4,"title":"Critical Projects","textShapes":4}
+{"kind":"textbox","id":"sh/6tovahoz","slide":4,"text":"Critical Projects","textPreview":"Critical Projects","textChars":17,"textLines":1,"bbox":[48,34,880,56]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":4,"text":"Top five red projects by score, ranked by the severity of the current delivery signal.","textPreview":"Top five red projects by score, ranked by the severity of the current delivery signal.","textChars":86,"textLines":1,"bbox":[48,92,980,44]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":4,"text":"These projects should be reviewed first in the next escalation cadence because they combine the highest risk scores with clear delivery explanations.","textPreview":"These projects should be reviewed first in the next escalation cadence because they combine the highest risk scores with clear delivery e...","textChars":149,"textLines":1,"bbox":[48,608,980,42]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1184,666,48,20]}
+{"kind":"table","id":"tb/5sneloj2","slide":4,"name":"","rows":3,"cols":3,"preview":"Project | Score | Reason","bbox":[48,166,1134,420]}
+{"kind":"notes","id":"nt/ve7dmm","slide":4,"text":""}
+{"kind":"slide","id":"sl/tovgbu","slide":5,"title":"Recommendations","textShapes":12}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":5,"text":"Recommendations","textPreview":"Recommendations","textChars":15,"textLines":1,"bbox":[48,34,880,56]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":5,"text":"The next operating cycle should focus on recovery discipline, blocker escalation, and cleaner execution reporting.","textPreview":"The next operating cycle should focus on recovery discipline, blocker escalation, and cleaner execution reporting.","textChars":114,"textLines":1,"bbox":[48,92,980,44]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":5,"bbox":[48,164,1134,126]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,200,62,32]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":5,"text":"Increase staffing where utilization is already above safe limits","textPreview":"Increase staffing where utilization is already above safe limits","textChars":64,"textLines":1,"bbox":[164,188,920,30]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":5,"text":"Reassign or add capacity to the most constrained plans before schedule recovery work pushes the same teams further behind.","textPreview":"Reassign or add capacity to the most constrained plans before schedule recovery work pushes the same teams further behind.","textChars":122,"textLines":1,"bbox":[164,226,910,40]}
+{"kind":"shape","id":"sh/9knih4by","slide":5,"bbox":[48,318,1134,126]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[78,354,62,32]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":5,"text":"Escalate blocked projects through a daily unblock cadence","textPreview":"Escalate blocked projects through a daily unblock cadence","textChars":57,"textLines":1,"bbox":[164,342,920,30]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":5,"text":"Use a standing review for critical blockers and P1 issues so execution stalls do not sit inside weekly status reports.","textPreview":"Use a standing review for critical blockers and P1 issues so execution stalls do not sit inside weekly status reports.","textChars":118,"textLines":1,"bbox":[164,380,910,40]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":5,"bbox":[48,472,1134,126]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[78,508,62,32]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":5,"text":"Rebaseline delayed milestones and enforce dated recovery plans","textPreview":"Rebaseline delayed milestones and enforce dated recovery plans","textChars":62,"textLines":1,"bbox":[164,496,920,30]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":5,"text":"Reset dates at milestone level for the top red projects and review burn-versus-progress weekly until the gap narrows.","textPreview":"Reset dates at milestone level for the top red projects and review burn-versus-progress weekly until the gap narrows.","textChars":117,"textLines":1,"bbox":[164,534,910,40]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1184,666,48,20]}
+{"kind":"notes","id":"nt/tovgbu","slide":5,"text":""}
+{"kind":"slide","id":"sl/u2i81m","slide":6,"title":"Next Month Outlook","textShapes":8}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":6,"text":"Next Month Outlook","textPreview":"Next Month Outlook","textChars":18,"textLines":1,"bbox":[48,34,880,56]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":6,"text":"The near-term forecast improves only if the current red watchlist receives faster recovery actions than it did this month.","textPreview":"The near-term forecast improves only if the current red watchlist receives faster recovery actions than it did this month.","textChars":122,"textLines":1,"bbox":[48,92,980,44]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":6,"bbox":[48,168,492,332]}
+{"kind":"textbox","id":"sh/z61032ls","slide":6,"text":"Forecast","textPreview":"Forecast","textChars":8,"textLines":1,"bbox":[76,198,180,28]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":6,"text":"The portfolio should remain mixed next month, but several amber projects could still move red if recovery plans are not enforced.","textPreview":"The portfolio should remain mixed next month, but several amber projects could still move red if recovery plans are not enforced.","textChars":129,"textLines":1,"bbox":[76,246,418,188]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":6,"bbox":[578,168,604,332]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":6,"text":"Expected improvements","textPreview":"Expected improvements","textChars":21,"textLines":1,"bbox":[606,198,380,32]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":6,"text":"1. Re-baselining the top five red projects should slow further schedule deterioration across the 1 projects already delayed by more than 14 days.\n\n2. A tighter burn-versus-progress review should help contain the 2 projects currently spending ahead of delivery progress.\n\n3. Daily blocker escalation and better status hygiene should improve confidence on the 1 heavily blocked projects and narrow the 0.0-point reporting gap in the leading red project.","textPreview":"1. Re-baselining the top five red projects should slow further schedule deterioration across the 1 projects already delayed by more than ...","textChars":451,"textLines":5,"bbox":[606,254,520,204]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":6,"text":"Project Plan B should stay on the watchlist next month because it remains undefined and still carries a 0-point gap between weekly and task-level progress.","textPreview":"Project Plan B should stay on the watchlist next month because it remains undefined and still carries a 0-point gap between weekly and ta...","textChars":155,"textLines":1,"bbox":[48,560,1134,56]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1184,666,48,20]}
+{"kind":"notes","id":"nt/u2i81m","slide":6,"text":""}
