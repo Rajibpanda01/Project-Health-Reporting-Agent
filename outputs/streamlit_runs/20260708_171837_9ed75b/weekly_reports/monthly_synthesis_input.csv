@@ -1,9 +1,0 @@
-workbook_name,project_id,project_name,rag_status,overall_score,confidence,top_risk_driver,top_risk_score,reason_1
-S2P_Project_Compatible_10Projects.xlsx,S2P-001,ERP Migration,Red,74.4,High,Schedule,84.0,Progress trails plan by 15 points and the project is 12 days behind schedule.
-S2P_Project_Compatible_10Projects.xlsx,S2P-002,CRM Upgrade,Red,91.1,High,Schedule,96.0,Progress trails plan by 26 points and the project is 18 days behind schedule.
-S2P_Project_Compatible_10Projects.xlsx,S2P-003,AI Procurement,Green,20.8,High,Milestone,60.0,20% of milestones are marked delayed and 60% are overdue as of 2026-07-08.
-S2P_Project_Compatible_10Projects.xlsx,S2P-006,Supplier Portal Upgrade,Amber,43.6,High,Schedule,42.0,Progress trails plan by 6 points and the project is 6 days behind schedule.
-S2P_Project_Compatible_10Projects.xlsx,S2P-007,Data Lake Modernization,Red,27.9,High,Milestone,80.0,40% of milestones are marked delayed and 80% are overdue as of 2026-07-08.
-S2P_Project_Compatible_10Projects.xlsx,S2P-008,Vendor Risk Platform,Red,85.2,High,Schedule,100.0,Progress trails plan by 23 points and the project is 21 days behind schedule.
-S2P_Project_Compatible_10Projects.xlsx,S2P-009,Invoice Automation,Amber,31.0,High,Risk,75.0,The risk register contains 3 active items with a meaningful concentration of high and critical entries.
-S2P_Project_Compatible_10Projects.xlsx,S2P-010,Contract Lifecycle Mgmt,Red,84.4,High,Schedule,88.0,Progress trails plan by 14 points and the project is 14 days behind schedule.

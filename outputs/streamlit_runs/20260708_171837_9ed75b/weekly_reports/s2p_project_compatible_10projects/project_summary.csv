@@ -1,9 +1,0 @@
-project_id,project_name,rag_status,overall_score,confidence,data_quality_score,top_reason_1,top_reason_2
-S2P-001,ERP Migration,Red,74.4,High,100.0,Progress trails plan by 15 points and the project is 12 days behind schedule.,The project has consumed 84% of budget while delivering 60% completion.
-S2P-002,CRM Upgrade,Red,91.1,High,100.0,Progress trails plan by 26 points and the project is 18 days behind schedule.,The project has consumed 96% of budget while delivering 42% completion.
-S2P-003,AI Procurement,Green,20.8,High,100.0,20% of milestones are marked delayed and 60% are overdue as of 2026-07-08.,Progress trails plan by 2 points and the project is 2 days behind schedule.
-S2P-006,Supplier Portal Upgrade,Amber,43.6,High,82.0,Progress trails plan by 6 points and the project is 6 days behind schedule.,The project has consumed 85% of budget while delivering 74% completion.
-S2P-007,Data Lake Modernization,Red,27.9,High,99.0,40% of milestones are marked delayed and 80% are overdue as of 2026-07-08.,The risk register contains 3 active items with a meaningful concentration of high and critical entries.
-S2P-008,Vendor Risk Platform,Red,85.2,High,80.0,Progress trails plan by 23 points and the project is 21 days behind schedule.,The project has consumed 97% of budget while delivering 39% completion.
-S2P-009,Invoice Automation,Amber,31.0,High,88.0,The risk register contains 3 active items with a meaningful concentration of high and critical entries.,20% of milestones are marked delayed and 40% are overdue as of 2026-07-08.
-S2P-010,Contract Lifecycle Mgmt,Red,84.4,High,97.0,Progress trails plan by 14 points and the project is 14 days behind schedule.,The project has consumed 92% of budget while delivering 58% completion.

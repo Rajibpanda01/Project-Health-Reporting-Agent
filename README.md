@@ -118,7 +118,7 @@ After the command completes, these files are generated or refreshed:
 
 ## Phase 3 Deck Structure
 
-The generated PowerPoint contains 6 slides:
+The generated PowerPoint contains 5 slides:
 
 1. Executive Summary
 2. Portfolio Health
