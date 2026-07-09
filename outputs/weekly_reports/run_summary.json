@@ -25,10 +25,8 @@
     "Red": 2
   },
   "monthly_deck": {
-    "pptx_path": "/Users/rajibpanda/Desktop/Project 9 july/deliverables/monthly_executive_deck.pptx",
-    "inspect_path": "/Users/rajibpanda/Desktop/Project 9 july/deliverables/monthly_executive_deck.pptx.inspect.ndjson",
-    "preview_dir": "/var/folders/xq/y60y9l897pj1scg4bt8m9bc80000gn/T/codex-presentations/project-health-reporting-agent/tmp/preview",
-    "qa_dir": "/var/folders/xq/y60y9l897pj1scg4bt8m9bc80000gn/T/codex-presentations/project-health-reporting-agent/tmp/qa"
+    "pptx_path": "/Users/rajibpanda/Desktop/Project Health Reporting Agent/deliverables/monthly_executive_deck.pptx",
+    "generator": "python-pptx"
   },
   "output_dir": "outputs/weekly_reports",
   "deck_output": "deliverables/monthly_executive_deck.pptx",

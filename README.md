@@ -84,7 +84,6 @@ After the command completes, these files are generated or refreshed:
 - `outputs/weekly_reports/project_plan_b/weekly_health_report.md`
 - `outputs/weekly_reports/<workbook>/project_reports/*.md`
 - `deliverables/monthly_executive_deck.pptx`
-- `deliverables/monthly_executive_deck.pptx.inspect.ndjson`
 
 ## Folder Structure
 
@@ -108,7 +107,6 @@ After the command completes, these files are generated or refreshed:
 |       |-- loaders.py
 |       |-- models.py
 |       |-- presentation.py
-|       |-- monthly_deck_builder.mjs
 |       |-- reporting.py
 |       |-- scoring.py
 |       `-- workflow.py
@@ -126,9 +124,8 @@ After the command completes, these files are generated or refreshed:
 3. `reporting.py` writes workbook-level summaries and one plain-English report per project.
 4. `workflow.py` runs the shared analysis pipeline, writes outputs, and optionally generates the deck.
 5. `cli.py` exposes the workflow as a terminal command.
-6. `presentation.py` prepares the presentation workspace and runs the deck builder.
-7. `monthly_deck_builder.mjs` converts `monthly_deck_data.json` into `deliverables/monthly_executive_deck.pptx`.
-8. `streamlit_app.py` wraps the same workflow in a browser UI for uploads, summaries, and downloads.
+6. `presentation.py` converts `monthly_deck_data.json` into `deliverables/monthly_executive_deck.pptx` with pure Python.
+7. `streamlit_app.py` wraps the same workflow in a browser UI for uploads, summaries, and downloads.
 
 ## Phase 3 Deck Structure
 
@@ -175,9 +172,7 @@ The generated PowerPoint contains 6 slides:
                         │
                         ▼
                 presentation.py
-                        │
-                        ▼
-                monthly_deck_builder.mjs
+                (python-pptx)
                         │
                         ▼
                 monthly_executive_deck.pptx
@@ -198,8 +193,7 @@ Reporting
 - CSV
 
 Presentation
-- JavaScript (ES Modules)
-- @oai/artifact-tool
+- python-pptx
 
 Others
 - argparse

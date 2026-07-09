@@ -210,13 +210,6 @@ def main() -> None:
         if deck_output.exists():
             shutil.copy2(deck_output, latest_ppt)
 
-        # Copy inspect file if present
-        inspect_src = deck_output.with_suffix(".pptx.inspect.ndjson")
-        inspect_dst = APP_DELIVERABLES_DIR / "monthly_executive_deck.pptx.inspect.ndjson"
-
-        if inspect_src.exists():
-            shutil.copy2(inspect_src, inspect_dst)
-
         st.session_state["last_run_result"] = result.to_dict()
         st.success("Analysis completed.")
 
